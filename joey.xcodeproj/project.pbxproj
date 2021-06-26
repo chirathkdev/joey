@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40470F766E7A062B2BDEDFB4 /* libPods-joey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1AEF346274EA35EA12599C /* libPods-joey.a */; };
+		FD049A561E63452600E858B2 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD049A551E63452600E858B2 /* LoadingViewController.m */; };
+		FD05599F1E3F2A55003172E0 /* TipProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05599E1E3F2A55003172E0 /* TipProcessor.m */; };
+		FD072BA61E6A0344000325C7 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD072BA51E6A0344000325C7 /* ChartViewController.m */; };
+		FD1CD42E1E6C53280037537C /* DishTipsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1CD42D1E6C53280037537C /* DishTipsTableViewController.m */; };
+		FD3CE3C81E65BF2600DE2BEC /* Desserts.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3C71E65BF2600DE2BEC /* Desserts.txt */; };
+		FD3CE3CA1E65BF4B00DE2BEC /* Beverages.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3C91E65BF4B00DE2BEC /* Beverages.txt */; };
+		FD3CE3CE1E65C0CE00DE2BEC /* Chinese.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3CD1E65C0CE00DE2BEC /* Chinese.txt */; };
+		FD3CE3D21E65C23000DE2BEC /* Pizza.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3D11E65C23000DE2BEC /* Pizza.txt */; };
+		FD3CE3D41E65C2C500DE2BEC /* Singapore.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3D31E65C2C500DE2BEC /* Singapore.txt */; };
+		FD3CE3D61E65C38B00DE2BEC /* Korean.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3D51E65C38B00DE2BEC /* Korean.txt */; };
+		FD3CE3D81E65C3D400DE2BEC /* Thai.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3D71E65C3D400DE2BEC /* Thai.txt */; };
+		FD3CE3DA1E65C47800DE2BEC /* Burgers.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3D91E65C47800DE2BEC /* Burgers.txt */; };
+		FD3CE3DC1E65C53B00DE2BEC /* Bakery.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD3CE3DB1E65C53B00DE2BEC /* Bakery.txt */; };
+		FD537A061E4B98840004358A /* TipClassifier.m in Sources */ = {isa = PBXBuildFile; fileRef = FD537A051E4B98840004358A /* TipClassifier.m */; };
+		FD537A091E4B99DC0004358A /* UserPreferenceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FD537A081E4B99DC0004358A /* UserPreferenceHandler.m */; };
+		FD7A89271E643EB6001A3FCF /* Indian.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD7A89261E643EB6001A3FCF /* Indian.txt */; };
+		FD82E42E1E66BAF2008420B2 /* Custom - Lexicon.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD82E42D1E66BAF2008420B2 /* Custom - Lexicon.txt */; };
+		FD85DB041E6D4F15003B8ABC /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD85DB031E6D4F15003B8ABC /* LocationManager.m */; };
+		FD91513F1EC9EC7E008EE42B /* UserManual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD91513E1EC9EC7E008EE42B /* UserManual.pdf */; };
+		FD9151411EC9F11D008EE42B /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9151401EC9F11D008EE42B /* QuickLook.framework */; };
+		FD993D6A1E470CDF0068D8B1 /* IdentifiedAspect.m in Sources */ = {isa = PBXBuildFile; fileRef = FD993D691E470CDF0068D8B1 /* IdentifiedAspect.m */; };
+		FDA8AB891E35CDBB0080FA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AB881E35CDBB0080FA68 /* main.m */; };
+		FDA8AB8C1E35CDBB0080FA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AB8B1E35CDBB0080FA68 /* AppDelegate.m */; };
+		FDA8AB8F1E35CDBB0080FA68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8AB8E1E35CDBB0080FA68 /* ViewController.m */; };
+		FDA8AB921E35CDBB0080FA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA8AB901E35CDBB0080FA68 /* Main.storyboard */; };
+		FDA8AB941E35CDBB0080FA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA8AB931E35CDBB0080FA68 /* Assets.xcassets */; };
+		FDA8AB971E35CDBB0080FA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA8AB951E35CDBB0080FA68 /* LaunchScreen.storyboard */; };
+		FDA8ABA11E35CF4B0080FA68 /* FoursquareHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA8ABA01E35CF4B0080FA68 /* FoursquareHandler.m */; };
+		FDB574F51E6176C000215745 /* UserPrefrence.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB574F41E6176C000215745 /* UserPrefrence.m */; };
+		FDB823B91E82F8E3004109AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB823B81E82F8E3004109AF /* CoreLocation.framework */; };
+		FDB823BC1E83A0B4004109AF /* LocationSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB823BB1E83A0B4004109AF /* LocationSearchViewController.m */; };
+		FDB823C11E83B7A4004109AF /* LocationSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB823C01E83B7A4004109AF /* LocationSearchTableViewController.m */; };
+		FDBEEBC21E50522B00807865 /* ABSA-15_Restaurants_Train_Final.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBEEBC11E50522B00807865 /* ABSA-15_Restaurants_Train_Final.json */; };
+		FDBEEBC61E5052C900807865 /* Cuisine.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FDBEEBC41E5052C900807865 /* Cuisine.rtf */; };
+		FDBEEBC91E5060F700807865 /* ABSA-15_Restaurants_Train_Final.xml in Resources */ = {isa = PBXBuildFile; fileRef = FDBEEBC81E5060F700807865 /* ABSA-15_Restaurants_Train_Final.xml */; };
+		FDBEEBCC1E5083C200807865 /* TrainingDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBEEBCB1E5083C200807865 /* TrainingDataHandler.m */; };
+		FDBEEBD41E50D7DA00807865 /* SentimentAllocator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBEEBD31E50D7DA00807865 /* SentimentAllocator.m */; };
+		FDBEEBD71E51AF7A00807865 /* AFINN-111.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDBEEBD61E51AF7A00807865 /* AFINN-111.txt */; };
+		FDCD9B121E6898D400F5440D /* RestaurantAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCD9B111E6898D400F5440D /* RestaurantAnalysisViewController.m */; };
+		FDD1B1ED1E5F4C1700235EA9 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD1B1EC1E5F4C1700235EA9 /* SearchViewController.m */; };
+		FDD2D78E1E7E55FC008DA426 /* SriLankan.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDD2D78D1E7E55FC008DA426 /* SriLankan.txt */; };
+		FDD2D7901E7E57A8008DA426 /* American.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDD2D78F1E7E57A8008DA426 /* American.txt */; };
+		FDD2D7921E7E59BD008DA426 /* Pasta.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDD2D7911E7E59BD008DA426 /* Pasta.txt */; };
+		FDD2D7941E7E5AD4008DA426 /* Japanese.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDD2D7931E7E5AD4008DA426 /* Japanese.txt */; };
+		FDD6740F1E61D5B500D593CC /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD6740E1E61D5B500D593CC /* ResultsTableViewController.m */; };
+		FDD674121E62B88700D593CC /* ComponentConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD674111E62B88700D593CC /* ComponentConnector.m */; };
+		FDFC0CCE1E43510200A2FE13 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC0CCD1E43510200A2FE13 /* Venue.m */; };
+		FDFC0CD21E43512C00A2FE13 /* VenueInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC0CD11E43512C00A2FE13 /* VenueInfo.m */; };
+		FDFC0CD81E43514C00A2FE13 /* TopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC0CD71E43514C00A2FE13 /* TopTip.m */; };
+		FDFC0CDB1E43515B00A2FE13 /* Tip.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC0CDA1E43515B00A2FE13 /* Tip.m */; };
+		FDFC0CDE1E43516900A2FE13 /* VenueStat.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC0CDD1E43516900A2FE13 /* VenueStat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81387B0ACC3B104EA43AE563 /* Pods-joey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-joey/Pods-joey.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1428C3B700DE17DA94A3B5 /* Pods-joey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-joey.release.xcconfig"; path = "Pods/Target Support Files/Pods-joey/Pods-joey.release.xcconfig"; sourceTree = "<group>"; };
+		DD1AEF346274EA35EA12599C /* libPods-joey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-joey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD049A541E63452600E858B2 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		FD049A551E63452600E858B2 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		FD05599D1E3F2A55003172E0 /* TipProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipProcessor.h; sourceTree = "<group>"; };
+		FD05599E1E3F2A55003172E0 /* TipProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipProcessor.m; sourceTree = "<group>"; };
+		FD072BA41E6A0344000325C7 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		FD072BA51E6A0344000325C7 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		FD1CD42C1E6C53280037537C /* DishTipsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishTipsTableViewController.h; sourceTree = "<group>"; };
+		FD1CD42D1E6C53280037537C /* DishTipsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishTipsTableViewController.m; sourceTree = "<group>"; };
+		FD3CE3C71E65BF2600DE2BEC /* Desserts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Desserts.txt; sourceTree = "<group>"; };
+		FD3CE3C91E65BF4B00DE2BEC /* Beverages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Beverages.txt; sourceTree = "<group>"; };
+		FD3CE3CD1E65C0CE00DE2BEC /* Chinese.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chinese.txt; sourceTree = "<group>"; };
+		FD3CE3D11E65C23000DE2BEC /* Pizza.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pizza.txt; sourceTree = "<group>"; };
+		FD3CE3D31E65C2C500DE2BEC /* Singapore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Singapore.txt; sourceTree = "<group>"; };
+		FD3CE3D51E65C38B00DE2BEC /* Korean.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Korean.txt; sourceTree = "<group>"; };
+		FD3CE3D71E65C3D400DE2BEC /* Thai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Thai.txt; sourceTree = "<group>"; };
+		FD3CE3D91E65C47800DE2BEC /* Burgers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Burgers.txt; sourceTree = "<group>"; };
+		FD3CE3DB1E65C53B00DE2BEC /* Bakery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bakery.txt; sourceTree = "<group>"; };
+		FD3E12A91E82F86200EDE512 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD537A041E4B98840004358A /* TipClassifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipClassifier.h; sourceTree = "<group>"; };
+		FD537A051E4B98840004358A /* TipClassifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipClassifier.m; sourceTree = "<group>"; };
+		FD537A071E4B99DC0004358A /* UserPreferenceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferenceHandler.h; sourceTree = "<group>"; };
+		FD537A081E4B99DC0004358A /* UserPreferenceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferenceHandler.m; sourceTree = "<group>"; };
+		FD7A89261E643EB6001A3FCF /* Indian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Indian.txt; sourceTree = "<group>"; };
+		FD82E42D1E66BAF2008420B2 /* Custom - Lexicon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Custom - Lexicon.txt"; sourceTree = "<group>"; };
+		FD85DB021E6D4F14003B8ABC /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		FD85DB031E6D4F15003B8ABC /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		FD91513E1EC9EC7E008EE42B /* UserManual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UserManual.pdf; sourceTree = "<group>"; };
+		FD9151401EC9F11D008EE42B /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		FD993D681E470CDF0068D8B1 /* IdentifiedAspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdentifiedAspect.h; sourceTree = "<group>"; };
+		FD993D691E470CDF0068D8B1 /* IdentifiedAspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdentifiedAspect.m; sourceTree = "<group>"; };
+		FDA8AB841E35CDBB0080FA68 /* joey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA8AB881E35CDBB0080FA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA8AB8A1E35CDBB0080FA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA8AB8B1E35CDBB0080FA68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA8AB8D1E35CDBB0080FA68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA8AB8E1E35CDBB0080FA68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA8AB911E35CDBB0080FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA8AB931E35CDBB0080FA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA8AB961E35CDBB0080FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA8AB981E35CDBB0080FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA8AB9F1E35CF4B0080FA68 /* FoursquareHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareHandler.h; sourceTree = "<group>"; };
+		FDA8ABA01E35CF4B0080FA68 /* FoursquareHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareHandler.m; sourceTree = "<group>"; };
+		FDB574F31E6176C000215745 /* UserPrefrence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPrefrence.h; sourceTree = "<group>"; };
+		FDB574F41E6176C000215745 /* UserPrefrence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPrefrence.m; sourceTree = "<group>"; };
+		FDB823B81E82F8E3004109AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FDB823BA1E83A0B4004109AF /* LocationSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSearchViewController.h; sourceTree = "<group>"; };
+		FDB823BB1E83A0B4004109AF /* LocationSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSearchViewController.m; sourceTree = "<group>"; };
+		FDB823BF1E83B7A4004109AF /* LocationSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSearchTableViewController.h; sourceTree = "<group>"; };
+		FDB823C01E83B7A4004109AF /* LocationSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSearchTableViewController.m; sourceTree = "<group>"; };
+		FDBEEBC11E50522B00807865 /* ABSA-15_Restaurants_Train_Final.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ABSA-15_Restaurants_Train_Final.json"; sourceTree = "<group>"; };
+		FDBEEBC41E5052C900807865 /* Cuisine.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Cuisine.rtf; sourceTree = "<group>"; };
+		FDBEEBC81E5060F700807865 /* ABSA-15_Restaurants_Train_Final.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ABSA-15_Restaurants_Train_Final.xml"; sourceTree = "<group>"; };
+		FDBEEBCA1E5083C200807865 /* TrainingDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingDataHandler.h; sourceTree = "<group>"; };
+		FDBEEBCB1E5083C200807865 /* TrainingDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingDataHandler.m; sourceTree = "<group>"; };
+		FDBEEBD21E50D7DA00807865 /* SentimentAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentimentAllocator.h; sourceTree = "<group>"; };
+		FDBEEBD31E50D7DA00807865 /* SentimentAllocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentimentAllocator.m; sourceTree = "<group>"; };
+		FDBEEBD61E51AF7A00807865 /* AFINN-111.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AFINN-111.txt"; sourceTree = "<group>"; };
+		FDCD9B101E6898D400F5440D /* RestaurantAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantAnalysisViewController.h; sourceTree = "<group>"; };
+		FDCD9B111E6898D400F5440D /* RestaurantAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantAnalysisViewController.m; sourceTree = "<group>"; };
+		FDD1B1EB1E5F4C1700235EA9 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FDD1B1EC1E5F4C1700235EA9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FDD2D78D1E7E55FC008DA426 /* SriLankan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SriLankan.txt; sourceTree = "<group>"; };
+		FDD2D78F1E7E57A8008DA426 /* American.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = American.txt; sourceTree = "<group>"; };
+		FDD2D7911E7E59BD008DA426 /* Pasta.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pasta.txt; sourceTree = "<group>"; };
+		FDD2D7931E7E5AD4008DA426 /* Japanese.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Japanese.txt; sourceTree = "<group>"; };
+		FDD6740D1E61D5B500D593CC /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		FDD6740E1E61D5B500D593CC /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
+		FDD674101E62B88700D593CC /* ComponentConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentConnector.h; sourceTree = "<group>"; };
+		FDD674111E62B88700D593CC /* ComponentConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentConnector.m; sourceTree = "<group>"; };
+		FDFC0CCC1E43510200A2FE13 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		FDFC0CCD1E43510200A2FE13 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		FDFC0CD01E43512C00A2FE13 /* VenueInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueInfo.h; sourceTree = "<group>"; };
+		FDFC0CD11E43512C00A2FE13 /* VenueInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueInfo.m; sourceTree = "<group>"; };
+		FDFC0CD61E43514C00A2FE13 /* TopTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopTip.h; sourceTree = "<group>"; };
+		FDFC0CD71E43514C00A2FE13 /* TopTip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopTip.m; sourceTree = "<group>"; };
+		FDFC0CD91E43515B00A2FE13 /* Tip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tip.h; sourceTree = "<group>"; };
+		FDFC0CDA1E43515B00A2FE13 /* Tip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tip.m; sourceTree = "<group>"; };
+		FDFC0CDC1E43516900A2FE13 /* VenueStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueStat.h; sourceTree = "<group>"; };
+		FDFC0CDD1E43516900A2FE13 /* VenueStat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueStat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA8AB811E35CDBA0080FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9151411EC9F11D008EE42B /* QuickLook.framework in Frameworks */,
+				FDB823B91E82F8E3004109AF /* CoreLocation.framework in Frameworks */,
+				40470F766E7A062B2BDEDFB4 /* libPods-joey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C89AF54E8072FA8535B8CDCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81387B0ACC3B104EA43AE563 /* Pods-joey.debug.xcconfig */,
+				CE1428C3B700DE17DA94A3B5 /* Pods-joey.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9CD989338357169B28BDB7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9151401EC9F11D008EE42B /* QuickLook.framework */,
+				FDB823B81E82F8E3004109AF /* CoreLocation.framework */,
+				FD3E12A91E82F86200EDE512 /* MapKit.framework */,
+				DD1AEF346274EA35EA12599C /* libPods-joey.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD05599C1E3F2A0A003172E0 /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				FD05599D1E3F2A55003172E0 /* TipProcessor.h */,
+				FD05599E1E3F2A55003172E0 /* TipProcessor.m */,
+			);
+			name = NLP;
+			sourceTree = "<group>";
+		};
+		FD537A031E4B983C0004358A /* Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				FD537A041E4B98840004358A /* TipClassifier.h */,
+				FD537A051E4B98840004358A /* TipClassifier.m */,
+				FDBEEBCA1E5083C200807865 /* TrainingDataHandler.h */,
+				FDBEEBCB1E5083C200807865 /* TrainingDataHandler.m */,
+			);
+			name = Classifier;
+			sourceTree = "<group>";
+		};
+		FD993D641E470AF90068D8B1 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				FD993D681E470CDF0068D8B1 /* IdentifiedAspect.h */,
+				FD993D691E470CDF0068D8B1 /* IdentifiedAspect.m */,
+			);
+			name = Aspects;
+			sourceTree = "<group>";
+		};
+		FDA8AB7B1E35CDBA0080FA68 = {
+			isa = PBXGroup;
+			children = (
+				FDA8AB861E35CDBB0080FA68 /* joey */,
+				FDA8AB851E35CDBB0080FA68 /* Products */,
+				C89AF54E8072FA8535B8CDCD /* Pods */,
+				D9CD989338357169B28BDB7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA8AB851E35CDBB0080FA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8AB841E35CDBB0080FA68 /* joey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA8AB861E35CDBB0080FA68 /* joey */ = {
+			isa = PBXGroup;
+			children = (
+				FDD674101E62B88700D593CC /* ComponentConnector.h */,
+				FDD674111E62B88700D593CC /* ComponentConnector.m */,
+				FD537A071E4B99DC0004358A /* UserPreferenceHandler.h */,
+				FD537A081E4B99DC0004358A /* UserPreferenceHandler.m */,
+				FD85DB021E6D4F14003B8ABC /* LocationManager.h */,
+				FD85DB031E6D4F15003B8ABC /* LocationManager.m */,
+				FDB574F21E61767200215745 /* APIHandlers */,
+				FDD1B1EA1E5F4AD400235EA9 /* ViewControllers */,
+				FDBEEBD11E50D7AC00807865 /* Sentiment */,
+				FD537A031E4B983C0004358A /* Classifier */,
+				FD05599C1E3F2A0A003172E0 /* NLP */,
+				FDA8AB9E1E35CF0F0080FA68 /* Models */,
+				FDA8AB8A1E35CDBB0080FA68 /* AppDelegate.h */,
+				FDA8AB8B1E35CDBB0080FA68 /* AppDelegate.m */,
+				FDA8AB8D1E35CDBB0080FA68 /* ViewController.h */,
+				FDA8AB8E1E35CDBB0080FA68 /* ViewController.m */,
+				FDA8AB901E35CDBB0080FA68 /* Main.storyboard */,
+				FDA8AB931E35CDBB0080FA68 /* Assets.xcassets */,
+				FDA8AB951E35CDBB0080FA68 /* LaunchScreen.storyboard */,
+				FDA8AB981E35CDBB0080FA68 /* Info.plist */,
+				FDA8AB871E35CDBB0080FA68 /* Supporting Files */,
+			);
+			path = joey;
+			sourceTree = "<group>";
+		};
+		FDA8AB871E35CDBB0080FA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEEBBF1E50522B00807865 /* DataSets */,
+				FDA8AB881E35CDBB0080FA68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA8AB9E1E35CF0F0080FA68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDB574F31E6176C000215745 /* UserPrefrence.h */,
+				FDB574F41E6176C000215745 /* UserPrefrence.m */,
+				FD993D641E470AF90068D8B1 /* Aspects */,
+				FDFC0CCF1E43511400A2FE13 /* Venue */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FDB574F21E61767200215745 /* APIHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8AB9F1E35CF4B0080FA68 /* FoursquareHandler.h */,
+				FDA8ABA01E35CF4B0080FA68 /* FoursquareHandler.m */,
+			);
+			name = APIHandlers;
+			sourceTree = "<group>";
+		};
+		FDB823BD1E83B750004109AF /* LocationSearchViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDB823BA1E83A0B4004109AF /* LocationSearchViewController.h */,
+				FDB823BB1E83A0B4004109AF /* LocationSearchViewController.m */,
+				FDB823BF1E83B7A4004109AF /* LocationSearchTableViewController.h */,
+				FDB823C01E83B7A4004109AF /* LocationSearchTableViewController.m */,
+			);
+			name = LocationSearchViews;
+			sourceTree = "<group>";
+		};
+		FDB823BE1E83B77A004109AF /* RestaurantAnalysisViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDCD9B101E6898D400F5440D /* RestaurantAnalysisViewController.h */,
+				FDCD9B111E6898D400F5440D /* RestaurantAnalysisViewController.m */,
+				FD072BA41E6A0344000325C7 /* ChartViewController.h */,
+				FD072BA51E6A0344000325C7 /* ChartViewController.m */,
+				FD1CD42C1E6C53280037537C /* DishTipsTableViewController.h */,
+				FD1CD42D1E6C53280037537C /* DishTipsTableViewController.m */,
+			);
+			name = RestaurantAnalysisViews;
+			sourceTree = "<group>";
+		};
+		FDBEEBBF1E50522B00807865 /* DataSets */ = {
+			isa = PBXGroup;
+			children = (
+				FD91513E1EC9EC7E008EE42B /* UserManual.pdf */,
+				FDBEEBD51E51AF7A00807865 /* Lexicons */,
+				FDBEEBC31E50526900807865 /* Cuisines */,
+				FDBEEBC01E50522B00807865 /* Training */,
+			);
+			path = DataSets;
+			sourceTree = "<group>";
+		};
+		FDBEEBC01E50522B00807865 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEEBC81E5060F700807865 /* ABSA-15_Restaurants_Train_Final.xml */,
+				FDBEEBC11E50522B00807865 /* ABSA-15_Restaurants_Train_Final.json */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		FDBEEBC31E50526900807865 /* Cuisines */ = {
+			isa = PBXGroup;
+			children = (
+				FDD2D78F1E7E57A8008DA426 /* American.txt */,
+				FD3CE3DB1E65C53B00DE2BEC /* Bakery.txt */,
+				FD3CE3C91E65BF4B00DE2BEC /* Beverages.txt */,
+				FD3CE3D91E65C47800DE2BEC /* Burgers.txt */,
+				FD3CE3CD1E65C0CE00DE2BEC /* Chinese.txt */,
+				FD3CE3C71E65BF2600DE2BEC /* Desserts.txt */,
+				FD7A89261E643EB6001A3FCF /* Indian.txt */,
+				FDD2D7931E7E5AD4008DA426 /* Japanese.txt */,
+				FD3CE3D51E65C38B00DE2BEC /* Korean.txt */,
+				FDD2D7911E7E59BD008DA426 /* Pasta.txt */,
+				FD3CE3D11E65C23000DE2BEC /* Pizza.txt */,
+				FD3CE3D31E65C2C500DE2BEC /* Singapore.txt */,
+				FDD2D78D1E7E55FC008DA426 /* SriLankan.txt */,
+				FD3CE3D71E65C3D400DE2BEC /* Thai.txt */,
+				FDBEEBC41E5052C900807865 /* Cuisine.rtf */,
+			);
+			path = Cuisines;
+			sourceTree = "<group>";
+		};
+		FDBEEBD11E50D7AC00807865 /* Sentiment */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEEBD21E50D7DA00807865 /* SentimentAllocator.h */,
+				FDBEEBD31E50D7DA00807865 /* SentimentAllocator.m */,
+			);
+			name = Sentiment;
+			sourceTree = "<group>";
+		};
+		FDBEEBD51E51AF7A00807865 /* Lexicons */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEEBD61E51AF7A00807865 /* AFINN-111.txt */,
+				FD82E42D1E66BAF2008420B2 /* Custom - Lexicon.txt */,
+			);
+			path = Lexicons;
+			sourceTree = "<group>";
+		};
+		FDD1B1EA1E5F4AD400235EA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FDD1B1EB1E5F4C1700235EA9 /* SearchViewController.h */,
+				FDD1B1EC1E5F4C1700235EA9 /* SearchViewController.m */,
+				FDD6740D1E61D5B500D593CC /* ResultsTableViewController.h */,
+				FDD6740E1E61D5B500D593CC /* ResultsTableViewController.m */,
+				FD049A541E63452600E858B2 /* LoadingViewController.h */,
+				FD049A551E63452600E858B2 /* LoadingViewController.m */,
+				FDB823BE1E83B77A004109AF /* RestaurantAnalysisViews */,
+				FDB823BD1E83B750004109AF /* LocationSearchViews */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FDFC0CCF1E43511400A2FE13 /* Venue */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC0CCC1E43510200A2FE13 /* Venue.h */,
+				FDFC0CCD1E43510200A2FE13 /* Venue.m */,
+				FDFC0CD01E43512C00A2FE13 /* VenueInfo.h */,
+				FDFC0CD11E43512C00A2FE13 /* VenueInfo.m */,
+				FDFC0CDC1E43516900A2FE13 /* VenueStat.h */,
+				FDFC0CDD1E43516900A2FE13 /* VenueStat.m */,
+				FDFC0CDF1E43517B00A2FE13 /* Tips */,
+			);
+			name = Venue;
+			sourceTree = "<group>";
+		};
+		FDFC0CDF1E43517B00A2FE13 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				FDFC0CD61E43514C00A2FE13 /* TopTip.h */,
+				FDFC0CD71E43514C00A2FE13 /* TopTip.m */,
+				FDFC0CD91E43515B00A2FE13 /* Tip.h */,
+				FDFC0CDA1E43515B00A2FE13 /* Tip.m */,
+			);
+			name = Tips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA8AB831E35CDBA0080FA68 /* joey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA8AB9B1E35CDBB0080FA68 /* Build configuration list for PBXNativeTarget "joey" */;
+			buildPhases = (
+				BF40771332A356E0F3D3A62F /* [CP] Check Pods Manifest.lock */,
+				FDA8AB801E35CDBA0080FA68 /* Sources */,
+				FDA8AB811E35CDBA0080FA68 /* Frameworks */,
+				FDA8AB821E35CDBA0080FA68 /* Resources */,
+				576CD5C5D7F16631F86E5764 /* [CP] Embed Pods Frameworks */,
+				596BFB8E28D021ED48046DA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = joey;
+			productName = joey;
+			productReference = FDA8AB841E35CDBB0080FA68 /* joey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA8AB7C1E35CDBA0080FA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "Chirath Kumarasiri";
+				TargetAttributes = {
+					FDA8AB831E35CDBA0080FA68 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DE4UXT3XGM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FDA8AB7F1E35CDBA0080FA68 /* Build configuration list for PBXProject "joey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = FDA8AB7B1E35CDBA0080FA68;
+			productRefGroup = FDA8AB851E35CDBB0080FA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA8AB831E35CDBA0080FA68 /* joey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA8AB821E35CDBA0080FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBEEBD71E51AF7A00807865 /* AFINN-111.txt in Resources */,
+				FDD2D78E1E7E55FC008DA426 /* SriLankan.txt in Resources */,
+				FD3CE3C81E65BF2600DE2BEC /* Desserts.txt in Resources */,
+				FD3CE3DC1E65C53B00DE2BEC /* Bakery.txt in Resources */,
+				FDBEEBC91E5060F700807865 /* ABSA-15_Restaurants_Train_Final.xml in Resources */,
+				FD3CE3DA1E65C47800DE2BEC /* Burgers.txt in Resources */,
+				FDD2D7921E7E59BD008DA426 /* Pasta.txt in Resources */,
+				FD3CE3D41E65C2C500DE2BEC /* Singapore.txt in Resources */,
+				FD3CE3D81E65C3D400DE2BEC /* Thai.txt in Resources */,
+				FDA8AB971E35CDBB0080FA68 /* LaunchScreen.storyboard in Resources */,
+				FD3CE3D21E65C23000DE2BEC /* Pizza.txt in Resources */,
+				FDBEEBC21E50522B00807865 /* ABSA-15_Restaurants_Train_Final.json in Resources */,
+				FD7A89271E643EB6001A3FCF /* Indian.txt in Resources */,
+				FDD2D7941E7E5AD4008DA426 /* Japanese.txt in Resources */,
+				FD3CE3CA1E65BF4B00DE2BEC /* Beverages.txt in Resources */,
+				FDA8AB941E35CDBB0080FA68 /* Assets.xcassets in Resources */,
+				FD3CE3CE1E65C0CE00DE2BEC /* Chinese.txt in Resources */,
+				FD3CE3D61E65C38B00DE2BEC /* Korean.txt in Resources */,
+				FDBEEBC61E5052C900807865 /* Cuisine.rtf in Resources */,
+				FD82E42E1E66BAF2008420B2 /* Custom - Lexicon.txt in Resources */,
+				FDD2D7901E7E57A8008DA426 /* American.txt in Resources */,
+				FD91513F1EC9EC7E008EE42B /* UserManual.pdf in Resources */,
+				FDA8AB921E35CDBB0080FA68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		576CD5C5D7F16631F86E5764 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-joey/Pods-joey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596BFB8E28D021ED48046DA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-joey/Pods-joey-resources.sh",
+				"${PODS_ROOT}/WSProgressHUD/WSProgressHUD/WSProgressBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WSProgressBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-joey/Pods-joey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF40771332A356E0F3D3A62F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-joey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA8AB801E35CDBA0080FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD85DB041E6D4F15003B8ABC /* LocationManager.m in Sources */,
+				FDCD9B121E6898D400F5440D /* RestaurantAnalysisViewController.m in Sources */,
+				FDA8AB8F1E35CDBB0080FA68 /* ViewController.m in Sources */,
+				FDFC0CD81E43514C00A2FE13 /* TopTip.m in Sources */,
+				FD1CD42E1E6C53280037537C /* DishTipsTableViewController.m in Sources */,
+				FDFC0CD21E43512C00A2FE13 /* VenueInfo.m in Sources */,
+				FDBEEBCC1E5083C200807865 /* TrainingDataHandler.m in Sources */,
+				FDB574F51E6176C000215745 /* UserPrefrence.m in Sources */,
+				FDB823BC1E83A0B4004109AF /* LocationSearchViewController.m in Sources */,
+				FDD1B1ED1E5F4C1700235EA9 /* SearchViewController.m in Sources */,
+				FDA8ABA11E35CF4B0080FA68 /* FoursquareHandler.m in Sources */,
+				FDFC0CDE1E43516900A2FE13 /* VenueStat.m in Sources */,
+				FDB823C11E83B7A4004109AF /* LocationSearchTableViewController.m in Sources */,
+				FDD674121E62B88700D593CC /* ComponentConnector.m in Sources */,
+				FD049A561E63452600E858B2 /* LoadingViewController.m in Sources */,
+				FD072BA61E6A0344000325C7 /* ChartViewController.m in Sources */,
+				FDD6740F1E61D5B500D593CC /* ResultsTableViewController.m in Sources */,
+				FDBEEBD41E50D7DA00807865 /* SentimentAllocator.m in Sources */,
+				FD537A091E4B99DC0004358A /* UserPreferenceHandler.m in Sources */,
+				FD537A061E4B98840004358A /* TipClassifier.m in Sources */,
+				FDA8AB8C1E35CDBB0080FA68 /* AppDelegate.m in Sources */,
+				FD05599F1E3F2A55003172E0 /* TipProcessor.m in Sources */,
+				FDA8AB891E35CDBB0080FA68 /* main.m in Sources */,
+				FDFC0CCE1E43510200A2FE13 /* Venue.m in Sources */,
+				FD993D6A1E470CDF0068D8B1 /* IdentifiedAspect.m in Sources */,
+				FDFC0CDB1E43515B00A2FE13 /* Tip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDA8AB901E35CDBB0080FA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA8AB911E35CDBB0080FA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA8AB951E35CDBB0080FA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA8AB961E35CDBB0080FA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA8AB991E35CDBB0080FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA8AB9A1E35CDBB0080FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA8AB9C1E35CDBB0080FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81387B0ACC3B104EA43AE563 /* Pods-joey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DE4UXT3XGM;
+				INFOPLIST_FILE = joey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chirath.joey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA8AB9D1E35CDBB0080FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1428C3B700DE17DA94A3B5 /* Pods-joey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DE4UXT3XGM;
+				INFOPLIST_FILE = joey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chirath.joey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA8AB7F1E35CDBA0080FA68 /* Build configuration list for PBXProject "joey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA8AB991E35CDBB0080FA68 /* Debug */,
+				FDA8AB9A1E35CDBB0080FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA8AB9B1E35CDBB0080FA68 /* Build configuration list for PBXNativeTarget "joey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA8AB9C1E35CDBB0080FA68 /* Debug */,
+				FDA8AB9D1E35CDBB0080FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA8AB7C1E35CDBA0080FA68 /* Project object */;
+}
