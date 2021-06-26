@@ -1,0 +1,2 @@
+# joey
+This research project proposed a “User Centric Mobile Based Decision Making System for Restaurant Selection” which automates the restaurant selection process of diners by eliminating the stressfulness and time consumption from the existing process. Aspect Based Opinion Mining, Natural Language Processing (NLP) and Machine Learning techniques are used to bring the exclusivity to the decision making process where the priority is given to both user preferences and the general context.
